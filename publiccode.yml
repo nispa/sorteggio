@@ -1,0 +1,65 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - collaboration
+  - employee-management
+description:
+  it:
+    features:
+      - 'shuffle, voting, tellers'
+    genericName: sorteggio
+    longDescription: |2
+       
+
+      **Il software è stato realizzato per la generazione di graduatorie per
+      scrutatori nel caso di elezioni studentesche e del personale. Per la
+      creazione di commissioni elettorali, ecc...**
+
+      **Vista l'esigenza di generare graduatorie casuali, durante la pandemia,
+      si è abbandonata l'estrazione fisica, e si è deciso di implementare
+      un'estrazione a cui è possibile assistere online. **
+
+      **Un operatore accede al software, che è presente per comodità online ad
+      un indirizzo specifico sottoforma di WebApp, condividendo il proprio
+      schermo in una chat Video pubblica, 3 utenti del pubblico decidono 3
+      numeri casuali (da 1 a 10) per estrarre un numero magico da usare per
+      mescolare l'elenco. **
+
+      **Il software di sorteggio infatti si è usato in congiunzione ad un altro
+      per l'estrazione di numeri casuali. Una volta generato il numero magico
+      \`N\` con un altro metodo, si provvede a mescolare \`N\` volte la
+      graduatoria. **
+    shortDescription: Sorteggio
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: GPL-3.0-or-later
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: nicola.spada@unime.it
+      name: Nicola Spada
+  type: internal
+name: sorteggio
+platforms:
+  - web
+releaseDate: '2020-06-27'
+softwareType: standalone/web
+url: 'https://github.com/nispa/sorteggio'
