@@ -1,0 +1,62 @@
+{
+  "name": "sorteggio",
+  "version": "0.1.1",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@fortawesome/fontawesome-free": "6.1.1",
+    "@react-pdf/renderer": "^2.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "@types/react-transition-group": "^4.4.5",
+    "assert": "^2.0.0",
+    "bootstrap-italia": "^1.6.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "moment": "^2.29.3",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.3.2",
+    "reactstrap": "^9.1.1",
+    "safer-buffer": "^2.1.2",
+    "spark-md5": "^3.0.1",
+    "stream-browserify": "^3.0.0",
+    "typeface-lora": "^1.1.13",
+    "typeface-roboto-mono": "^1.1.13",
+    "typeface-titillium-web": "^1.1.13",
+    "util": "^0.12.4",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.73.0",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "craco start",
+    "start_old": "react-scripts start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@3.2.1"
+}

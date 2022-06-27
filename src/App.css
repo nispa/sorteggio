@@ -1,0 +1,15 @@
+
+.customButton {
+    margin: 20
+}
+    
+.list {
+    max-height: "33vh";
+    display: "block"; 
+    overflow-y: "scroll"
+}
+.list2 {
+    max-height: "60vh";
+    display: "block";
+    overflow-y: "scroll2"
+}
